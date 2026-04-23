@@ -14,16 +14,21 @@ Analizar la evolución de la participación femenina en los Juegos Olímpicos, i
 ## 📊 Funciones Implementadas
 
 | # | Función | Descripción | Estado |
-|---|---------|----------|--------|
-| 1 | `prepare_merged_df()` | Merge de bios + results, limpieza de datos | ✅ |
-| 2 | `female_share_by_year()` | % participación femenina anual | ✅ |
-| 3 | `female_share_by_year_and_type()` | % por tipo (Summer/Winter) | ✅ |
-| 4 | `top_5_nocs_female_entries()` | Top 5 países por participación femenina | ✅ |
-| 5 | `female_entries_top_disciplines_over_time()` | Evolución de disciplinas top | ✅ |
-| 6 | `male_vs_female_entries_by_year()` | Comparación M/F por año | ✅ |
-| 7 | `medal_counts_by_sex()` | Distribución de medallas por sexo | ✅ |
-| 8 | `medal_efficiency_by_gender()` | Eficiencia (participaciones → medallas) | ✅ |
-| 9 | `first_female_participation_by_discipline()` | Primer año inclusión femenina por deporte | ✅ |
+|---|---------|-------------|--------|
+| 1 | `renombrar_columnas_principales()` | Renombra columnas clave al español (año, sexo, tipo, etc.) | ✅ |
+| 2 | `preparar_df_unido()` | Merge de bios y results, limpieza de sexo y años | ✅ |
+| 3 | `renombrar_columnas()` | Renombra columnas de resultados agregados (medallas, tasas) | ✅ |
+| 4 | `proporcion_femenina_por_anio()` | Calcula % de participación femenina por año | ✅ |
+| 5 | `proporcion_femenina_por_anio_y_tipo()` | % por año y tipo (Verano/Invierno) | ✅ |
+| 6 | `top_5_paises_participaciones_femeninas()` | Top 5 países por número de participaciones femeninas | ✅ |
+| 7 | `participaciones_femeninas_top_disciplinas_evolucion()` | Evolución temporal de las top disciplinas femeninas | ✅ |
+| 8 | `comparativa_genero_por_anio()` | Comparación de participaciones masculinas vs femeninas por año | ✅ |
+| 9 | `conteo_medallas_por_sexo()` | Distribución de medallas (oro, plata, bronce) por sexo | ✅ |
+| 10 | `primer_participacion_femenina_por_disciplina()` | Primer año de inclusión femenina por disciplina + métricas | ✅ |
+| 11 | `visualizar_primer_participacion_femenina()` | Visualización del primer año (barras horizontales con color degradado) | ✅ |
+| 12 | `participacion_femenina_top5_paises()` | Área apilada de participaciones femeninas en top 5 países | ✅ |
+| 13 | `top10_paises_medallas_oro_femeninas()` | Top 10 países con más medallas de oro femeninas | ✅ |
+| 14 | `evolucion_disciplinas_con_mujeres()` | Evolución del número de disciplinas con participación femenina | ✅ |
 
 
 ## 🚀 Uso Rápido
